@@ -200,12 +200,9 @@ Pré-requisitos: Android Studio (ou JDK 17+ e o Android SDK configurados na mão
 2. Esperar o Gradle sincronizar sozinho.
 3. Clicar em ▶ com um emulador/device selecionado.
 
-**Pelo terminal:**
-```bash
-./gradlew assembleDebug      # gera o APK de debug
-./gradlew installDebug       # instala num device/emulador já conectado
-./gradlew :app:compileDebugKotlin   # só compila, pra checar erro rápido sem gerar APK
-```
 
 ## Evidências
+
+[Screen_recording_20260826_173158.webm](https://github.com/user-attachments/assets/b9479587-b365-4b6c-af4b-1b88f1b27766)
+
 
