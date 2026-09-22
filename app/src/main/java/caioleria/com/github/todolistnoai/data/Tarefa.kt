@@ -9,5 +9,6 @@ data class Tarefa(
     val titulo: String,
     val descricao: String,
     val concluido: Boolean = false,
-    val dataCriacao: Long
+    val dataCriacao: Long = System.currentTimeMillis(),
+    val dataHora: Long? = null
 )
